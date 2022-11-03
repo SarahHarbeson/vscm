@@ -5,17 +5,33 @@
 }
 
 .box{
-  height: 650px;
+  height: 665px;
   width: 300px;
   background-color: var(--red);
 }
 
+.container{
+  position: relative; 
+  width: 110%
+}
 
-button{
+.container img{
+  width: 100%; 
+  height: auto; 
+}
+
+
+.container button {
+  position: absolute;
+  top: 59%;
+  left: 2.5%;
   background-color: var(--orange);
-  border: none; 
-  padding: 20px 30px; 
+  color: var(--black);
   font-family: 'Noto Sans', sans-serif;
+  font-size: 20px;
+  padding: 18px 24px;
   font-weight: bold; 
+  border: none;
+  cursor: pointer;
 
 }
