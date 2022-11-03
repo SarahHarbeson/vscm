@@ -1,0 +1,21 @@
+.hero{
+    display: flex; 
+    flex-direction: row; 
+    justify-content: right; 
+}
+
+.box{
+  height: 650px;
+  width: 300px;
+  background-color: var(--red);
+}
+
+
+button{
+  background-color: var(--orange);
+  border: none; 
+  padding: 20px 30px; 
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: bold; 
+
+}
