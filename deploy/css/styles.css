@@ -438,4 +438,13 @@ a {
 
 .designs {
   margin-top: -330px;
+  margin-left: -40px;
+}
+
+.quotes {
+  font-size: 30px;
+  font-family: "Noto Sans", sans-serif;
+  margin-top: -1040px;
+  margin-left: 500px;
+  color: var(--white);
 }
