@@ -1,6 +1,6 @@
 .rectangle{
     background-color: var(--blue); 
-    height: 435px;
+    height: 425px;
     width: 100%;
     margin-top: -10px; 
 }
@@ -10,11 +10,23 @@
     margin-left: -40px; 
 }
 
-.quotes{
-    font-size: 30px; 
+.theQuote{
+    font-size: 26px; 
     font-family: 'Noto Sans', sans-serif;
-    margin-top: -1040px; 
+    font-weight: bold; 
+    margin-top: 1240px; 
     margin-left: 500px; 
     color: var(--white); 
 }
 
+.quote1{
+    margin-top: -1090px; 
+    margin-bottom:-1330px;
+    margin-left: 400px; 
+}
+
+.quote2{
+    margin-top: -75px; 
+    margin-bottom:-1340px;
+    margin-left: 830px; 
+}

@@ -5,14 +5,15 @@
 }
 
 .box{
-  height: 665px;
+  height: 625px;
   width: 300px;
   background-color: var(--red);
 }
 
 .container{
   position: relative; 
-  width: 110%
+  width: 110%; 
+  height: 100%
 }
 
 .container img{
