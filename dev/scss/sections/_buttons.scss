@@ -1,25 +1,62 @@
 .buttonsSection{
     display: flex; 
     flex-direction: row; 
+    justify-content: center; 
     margin-top: -120px; 
+    margin-left: 5px; 
 }
 
 .EarlyInt button{
     font-family: 'Noto Sans', sans-serif;
-    font-size: 25px; 
+    font-size: 30px; 
     background-color: var(--red); 
     color: var(--white); 
     border: none; 
     border-radius:none; 
-    padding: 15px 25px 15px 25px; 
+    padding: 15px 30px 15px 30px; 
+    margin-right: 8px; 
 }
 
 .k21 button{
     font-family: 'Noto Sans', sans-serif;
-    font-size: 25px; 
+    font-size: 30px; 
     background-color: var(--green); 
     color: var(--white); 
     border: none; 
     border-radius:none; 
-    padding: 15px 25px 15px 25px; 
+    padding: 15px 50px 15px 50px; 
+    margin-right: 8px;
+}
+
+.outreach button{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 30px; 
+    background-color: var(--blue); 
+    color: var(--white); 
+    border: none; 
+    border-radius:none; 
+    padding: 15px 45px 15px 45px; 
+    margin-right: 8px;
+}
+
+.cvi button{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 30px; 
+    background-color: var(--orange); 
+    color: var(--white); 
+    border: none; 
+    border-radius:none; 
+    padding: 15px 40px 15px 40px; 
+    margin-right: 8px;
+}
+
+.IntProgram button{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 30px; 
+    background-color: var(--purple); 
+    color: var(--white); 
+    border: none; 
+    border-radius:none; 
+    padding: 15px 30px 15px 30px; 
+    margin-right: 8px;
 }

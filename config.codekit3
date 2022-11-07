@@ -204,6 +204,14 @@
       "oAP" : "\/dev\/content\/buttons.html",
       "oF" : 0
     },
+    "\/dev\/content\/callout.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/content\/callout.html",
+      "oF" : 0
+    },
     "\/dev\/content\/gallery.kit" : {
       "cB" : 0,
       "ft" : 2048,

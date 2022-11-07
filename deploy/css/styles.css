@@ -18,6 +18,7 @@ html {
   --red: #D71920;
   --orange: #F7941D;
   --green: #92C83E;
+  --purple: #903B93;
 }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
@@ -464,75 +465,161 @@ a {
   margin-left: 830px;
 }
 
+.grid {
+  display: flex;
+  flex-direction: row;
+  margin-left: 530px;
+}
+
+.centercolumn {
+  display: flex;
+  justify-content: center;
+  vertical-align: bottom;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-top: 1400px;
+}
+
 .img1 img {
+  flex-wrap: wrap;
+  padding: 8px;
+  width: 430px;
+  height: 390px;
   object-fit: cover;
-  margin-top: 1440px;
-  margin-left: 550px;
-  margin-bottom: -15px;
+  background-position: center;
 }
 
 .img2 img {
+  flex-wrap: wrap;
+  padding: 8px;
+  width: 430px;
+  height: 244px;
   object-fit: cover;
-  margin-top: -400px;
-  margin-left: 990px;
-  margin-bottom: 0px;
+  background-position: center;
 }
 
 .img3 img {
+  flex-wrap: wrap;
+  padding: 8px;
+  width: 430px;
+  height: 231px;
   object-fit: cover;
-  margin-left: 550px;
-  margin-bottom: 0px;
+  background-position: center;
+}
+
+.sidecolumn {
+  display: flex;
+  justify-content: center;
+  vertical-align: bottom;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-top: 1400px;
 }
 
 .img4 img {
+  flex-wrap: wrap;
+  padding: 8px;
+  width: 392px;
+  height: 395px;
   object-fit: cover;
-  margin-top: -245px;
-  margin-left: 990px;
-  margin-bottom: 0px;
+  background-position: center;
 }
 
 .img5 img {
+  flex-wrap: wrap;
+  padding: 8px;
+  width: 392px;
+  height: 484px;
   object-fit: cover;
-  object-position: top 5%;
-  margin-top: -249px;
-  margin-left: 15px;
-  margin-bottom: 17px;
+  background-position: center;
 }
 
-.img6 {
+.leftside {
+  display: flex;
+  justify-content: left;
+  vertical-align: bottom;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-left: -850px;
+  margin-top: -240px;
+}
+
+.img6 img {
+  flex-wrap: wrap;
+  padding: 8px;
+  width: 480px;
+  height: 224px;
   object-fit: cover;
-  margin-top: -253px;
-  margin-left: 549px;
-  margin-bottom: 0px;
+  background-position: center;
 }
 
 .galleryshapes {
-  margin-top: -718px;
+  margin-top: -730px;
   margin-left: 435px;
 }
 
 .buttonsSection {
   display: flex;
   flex-direction: row;
+  justify-content: center;
   margin-top: -120px;
+  margin-left: 5px;
 }
 
 .EarlyInt button {
   font-family: "Noto Sans", sans-serif;
-  font-size: 25px;
+  font-size: 30px;
   background-color: var(--red);
   color: var(--white);
   border: none;
   border-radius: none;
-  padding: 15px 25px 15px 25px;
+  padding: 15px 30px 15px 30px;
+  margin-right: 8px;
 }
 
 .k21 button {
   font-family: "Noto Sans", sans-serif;
-  font-size: 25px;
+  font-size: 30px;
   background-color: var(--green);
   color: var(--white);
   border: none;
   border-radius: none;
-  padding: 15px 25px 15px 25px;
+  padding: 15px 50px 15px 50px;
+  margin-right: 8px;
+}
+
+.outreach button {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 30px;
+  background-color: var(--blue);
+  color: var(--white);
+  border: none;
+  border-radius: none;
+  padding: 15px 45px 15px 45px;
+  margin-right: 8px;
+}
+
+.cvi button {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 30px;
+  background-color: var(--orange);
+  color: var(--white);
+  border: none;
+  border-radius: none;
+  padding: 15px 40px 15px 40px;
+  margin-right: 8px;
+}
+
+.IntProgram button {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 30px;
+  background-color: var(--purple);
+  color: var(--white);
+  border: none;
+  border-radius: none;
+  padding: 15px 30px 15px 30px;
+  margin-right: 8px;
 }
