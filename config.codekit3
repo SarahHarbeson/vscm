@@ -33,6 +33,45 @@
       "oF" : 0,
       "pg" : 0
     },
+    "\/deploy\/img\/classroom.png" : {
+      "ft" : 32768,
+      "iS" : 112526,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/classroom.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/garden.png" : {
+      "ft" : 32768,
+      "iS" : 188670,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/garden.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/international.png" : {
+      "ft" : 32768,
+      "iS" : 330340,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/international.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/logo.jpg" : {
       "ft" : 16384,
       "iS" : 3142,
@@ -51,6 +90,19 @@
       "iS" : 25468,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/millionDreams.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/playground.png" : {
+      "ft" : 32768,
+      "iS" : 151552,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/playground.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -89,6 +141,32 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
+    "\/deploy\/img\/statue.png" : {
+      "ft" : 32768,
+      "iS" : 353704,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/statue.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/tinyPlayground.png" : {
+      "ft" : 32768,
+      "iS" : 190840,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/tinyPlayground.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/index.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -107,6 +185,14 @@
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
+    },
+    "\/dev\/content\/gallery.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/gallery.html",
+      "oF" : 0
     },
     "\/dev\/content\/header.kit" : {
       "cB" : 0,
@@ -329,6 +415,21 @@
       "oA" : 0,
       "oAP" : "\/dev\/scss\/layout\/_header.css",
       "oF" : 1,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/dev\/scss\/sections\/_gallery.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/_gallery.css",
+      "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
