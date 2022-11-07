@@ -1,7 +1,49 @@
-.gallery1 img {
-    height: 100%;
-    width: 100%;
+
+.img1 img {
+
     object-fit: cover;
-    -webkit-mask-image: url(#mask);
-    mask-image: url(#mask);
+    margin-top: 1440px; 
+    margin-left: 550px; 
+    margin-bottom:-15px; 
+  }
+
+  .img2 img {
+
+    object-fit: cover;
+    margin-top: -400px; 
+    margin-left: 990px; 
+    margin-bottom: 0px; 
+  }
+
+  .img3 img {
+
+    object-fit: cover;
+    margin-left: 550px; 
+    margin-bottom: 0px; 
+  }
+
+
+  .img4 img {
+
+    object-fit: cover;
+    margin-top: -245px; 
+    margin-left: 990px; 
+    margin-bottom: 0px; 
+  }
+
+  .img5 img {
+
+    object-fit: cover;
+    object-position: top 5%;
+    margin-top: -249px; 
+    margin-left: 15px; 
+    margin-bottom: 17px; 
+  }
+
+  .img6 {
+
+    object-fit: cover;
+    margin-top: -253px; 
+    margin-left: 549px; 
+    margin-bottom: 0px; 
   }

@@ -1,0 +1,25 @@
+.buttonsSection{
+    display: flex; 
+    flex-direction: row; 
+    margin-top: -120px; 
+}
+
+.EarlyInt button{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 25px; 
+    background-color: var(--red); 
+    color: var(--white); 
+    border: none; 
+    border-radius:none; 
+    padding: 15px 25px 15px 25px; 
+}
+
+.k21 button{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 25px; 
+    background-color: var(--green); 
+    color: var(--white); 
+    border: none; 
+    border-radius:none; 
+    padding: 15px 25px 15px 25px; 
+}

@@ -17,6 +17,7 @@ html {
   --yellow: #FFE300;
   --red: #D71920;
   --orange: #F7941D;
+  --green: #92C83E;
 }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
@@ -452,7 +453,7 @@ a {
 }
 
 .quote1 {
-  margin-top: -1090px;
+  margin-top: -1050px;
   margin-bottom: -1330px;
   margin-left: 400px;
 }
@@ -463,10 +464,75 @@ a {
   margin-left: 830px;
 }
 
-.gallery1 img {
-  height: 100%;
-  width: 100%;
+.img1 img {
   object-fit: cover;
-  -webkit-mask-image: url(#mask);
-  mask-image: url(#mask);
+  margin-top: 1440px;
+  margin-left: 550px;
+  margin-bottom: -15px;
+}
+
+.img2 img {
+  object-fit: cover;
+  margin-top: -400px;
+  margin-left: 990px;
+  margin-bottom: 0px;
+}
+
+.img3 img {
+  object-fit: cover;
+  margin-left: 550px;
+  margin-bottom: 0px;
+}
+
+.img4 img {
+  object-fit: cover;
+  margin-top: -245px;
+  margin-left: 990px;
+  margin-bottom: 0px;
+}
+
+.img5 img {
+  object-fit: cover;
+  object-position: top 5%;
+  margin-top: -249px;
+  margin-left: 15px;
+  margin-bottom: 17px;
+}
+
+.img6 {
+  object-fit: cover;
+  margin-top: -253px;
+  margin-left: 549px;
+  margin-bottom: 0px;
+}
+
+.galleryshapes {
+  margin-top: -718px;
+  margin-left: 435px;
+}
+
+.buttonsSection {
+  display: flex;
+  flex-direction: row;
+  margin-top: -120px;
+}
+
+.EarlyInt button {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 25px;
+  background-color: var(--red);
+  color: var(--white);
+  border: none;
+  border-radius: none;
+  padding: 15px 25px 15px 25px;
+}
+
+.k21 button {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 25px;
+  background-color: var(--green);
+  color: var(--white);
+  border: none;
+  border-radius: none;
+  padding: 15px 25px 15px 25px;
 }
