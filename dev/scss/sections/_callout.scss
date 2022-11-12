@@ -2,13 +2,21 @@
     background-color: var(--yellow); 
     margin-top: 50px; 
     height: 300px; 
+    margin-bottom: 50px; 
 }
+
+// .calloutContent{
+//     display: flex; 
+//     flex-direction: row; 
+//     align-items: center; 
+// }
 
 .calloutText {
     font-family: 'Noto Sans', sans-serif;
     display: flex; 
     flex-direction: column; 
-    padding: 30px; 
+    padding: 20px; 
+    margin-left: 25px; 
 }
 
 .text1{
@@ -27,10 +35,18 @@
     background-color: var(--blue);
     color: var(--white);
     font-family: 'Noto Sans', sans-serif;
-    font-size: 20px;
-    padding: 18px 24px;
+    font-size: 30px;
+    padding: 18px 60px;
 
     border: none;
     cursor: pointer;
+
+    top: 252%; 
+    left: 70%;
+
+    // display: flex; 
+    // flex-direction: row; 
+    // align-items: right; 
+    // justify-content: right; 
   
 }

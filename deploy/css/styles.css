@@ -628,13 +628,15 @@ a {
   background-color: var(--yellow);
   margin-top: 50px;
   height: 300px;
+  margin-bottom: 50px;
 }
 
 .calloutText {
   font-family: "Noto Sans", sans-serif;
   display: flex;
   flex-direction: column;
-  padding: 30px;
+  padding: 20px;
+  margin-left: 25px;
 }
 
 .text1 {
@@ -652,8 +654,49 @@ a {
   background-color: var(--blue);
   color: var(--white);
   font-family: "Noto Sans", sans-serif;
-  font-size: 20px;
-  padding: 18px 24px;
+  font-size: 30px;
+  padding: 18px 60px;
   border: none;
   cursor: pointer;
+  top: 252%;
+  left: 70%;
+}
+
+.footer {
+  background-color: var(--blue);
+  height: 162px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-family: "Noto Sans", sans-serif;
+  color: var(--yellow);
+}
+
+.leftSide {
+  font-size: 45px;
+  margin-left: -40px;
+  padding-right: 40px;
+  font-weight: bold;
+}
+
+.leftSideText {
+  font-size: 15px;
+  padding-right: 20px;
+  text-align: right;
+}
+
+.logoFooter {
+  width: 100px;
+  height: 100px;
+  padding-right: 40px;
+}
+
+.rightSideText {
+  font-size: 15px;
+  padding-right: 30px;
+}
+
+.rightSide {
+  margin-right: -50px;
 }
