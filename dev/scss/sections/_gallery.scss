@@ -1,10 +1,10 @@
-.grid{
+#grid{
   display: flex; 
   flex-direction: row; 
   margin-left: 530px; 
 }
 
-.centercolumn{
+#centercolumn{
   display: flex; 
   justify-content: center; 
   vertical-align: bottom; 
@@ -16,7 +16,7 @@
 }
 
 
-.img1 img {
+#img1 img {
 
     // object-fit: cover;
     // margin-top: 1440px; 
@@ -31,7 +31,7 @@
     background-position: center; 
   }
 
-  .img2 img {
+  #img2 img {
 
     // object-fit: cover;
     // margin-top: -400px; 
@@ -46,7 +46,7 @@
     background-position: center; 
   }
 
-  .img3 img {
+  #img3 img {
 
     // object-fit: cover;
     // margin-left: 550px; 
@@ -60,7 +60,7 @@
     background-position: center; 
   }
 
-  .sidecolumn{
+  #sidecolumn{
     display: flex; 
     justify-content: center; 
     vertical-align: bottom; 
@@ -71,7 +71,7 @@
   }
 
 
-  .img4 img {
+  #img4 img {
 
     // object-fit: cover;
     // margin-top: -245px; 
@@ -86,7 +86,7 @@
     background-position: center; 
   }
 
-  .img5 img {
+  #img5 img {
 
     // object-fit: cover;
     // object-position: top 5%;
@@ -102,7 +102,7 @@
     background-position: center; 
   }
 
-  .leftside{
+  #leftside{
     display: flex; 
     justify-content: left; 
     vertical-align: bottom; 
@@ -113,7 +113,7 @@
     margin-top: -240px; 
   }
 
-  .img6 img {
+  #img6 img {
 
     // object-fit: cover;
     // margin-top: -253px; 

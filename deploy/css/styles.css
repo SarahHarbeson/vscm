@@ -465,13 +465,13 @@ a {
   margin-left: 830px;
 }
 
-.grid {
+#grid {
   display: flex;
   flex-direction: row;
   margin-left: 530px;
 }
 
-.centercolumn {
+#centercolumn {
   display: flex;
   justify-content: center;
   vertical-align: bottom;
@@ -481,7 +481,7 @@ a {
   margin-top: 1400px;
 }
 
-.img1 img {
+#img1 img {
   flex-wrap: wrap;
   padding: 8px;
   width: 430px;
@@ -490,7 +490,7 @@ a {
   background-position: center;
 }
 
-.img2 img {
+#img2 img {
   flex-wrap: wrap;
   padding: 8px;
   width: 430px;
@@ -499,7 +499,7 @@ a {
   background-position: center;
 }
 
-.img3 img {
+#img3 img {
   flex-wrap: wrap;
   padding: 8px;
   width: 430px;
@@ -508,7 +508,7 @@ a {
   background-position: center;
 }
 
-.sidecolumn {
+#sidecolumn {
   display: flex;
   justify-content: center;
   vertical-align: bottom;
@@ -518,7 +518,7 @@ a {
   margin-top: 1400px;
 }
 
-.img4 img {
+#img4 img {
   flex-wrap: wrap;
   padding: 8px;
   width: 392px;
@@ -527,7 +527,7 @@ a {
   background-position: center;
 }
 
-.img5 img {
+#img5 img {
   flex-wrap: wrap;
   padding: 8px;
   width: 392px;
@@ -536,7 +536,7 @@ a {
   background-position: center;
 }
 
-.leftside {
+#leftside {
   display: flex;
   justify-content: left;
   vertical-align: bottom;
@@ -547,7 +547,7 @@ a {
   margin-top: -240px;
 }
 
-.img6 img {
+#img6 img {
   flex-wrap: wrap;
   padding: 8px;
   width: 480px;
