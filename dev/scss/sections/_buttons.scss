@@ -1,4 +1,4 @@
-.buttonsSection{
+#buttonsSection{
     display: flex; 
     flex-direction: row; 
     justify-content: center; 
@@ -6,7 +6,7 @@
     margin-left: 5px; 
 }
 
-.EarlyInt button{
+#EarlyInt button{
     font-family: 'Noto Sans', sans-serif;
     font-size: 30px; 
     background-color: var(--red); 
@@ -17,7 +17,7 @@
     margin-right: 8px; 
 }
 
-.k21 button{
+#k21 button{
     font-family: 'Noto Sans', sans-serif;
     font-size: 30px; 
     background-color: var(--green); 
@@ -28,7 +28,7 @@
     margin-right: 8px;
 }
 
-.outreach button{
+#outreach button{
     font-family: 'Noto Sans', sans-serif;
     font-size: 30px; 
     background-color: var(--blue); 
@@ -39,7 +39,7 @@
     margin-right: 8px;
 }
 
-.cvi button{
+#cvi button{
     font-family: 'Noto Sans', sans-serif;
     font-size: 30px; 
     background-color: var(--orange); 
@@ -50,7 +50,7 @@
     margin-right: 8px;
 }
 
-.IntProgram button{
+#IntProgram button{
     font-family: 'Noto Sans', sans-serif;
     font-size: 30px; 
     background-color: var(--purple); 

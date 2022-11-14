@@ -366,19 +366,19 @@ textarea {
 /* =============
     Footer
 ============= */
-.header {
+#header {
   height: 121px;
   background: var(--blue);
   font-family: "Noto Sans", sans-serif;
 }
 
-.logo {
+#logo {
   display: flex;
   justify-content: left;
   align-items: flex-start;
 }
 
-.links {
+#links {
   display: flex;
   flex-direction: row;
   justify-content: right;
@@ -395,30 +395,30 @@ a {
   padding: 30px;
 }
 
-.hero {
+#hero {
   display: flex;
   flex-direction: row;
   justify-content: right;
 }
 
-.box {
+#box {
   height: 625px;
   width: 300px;
   background-color: var(--red);
 }
 
-.container {
+#container {
   position: relative;
   width: 110%;
   height: 100%;
 }
 
-.container img {
+#container img {
   width: 100%;
   height: auto;
 }
 
-.container button {
+#container button {
   position: absolute;
   top: 59%;
   left: 2.5%;
@@ -432,19 +432,19 @@ a {
   cursor: pointer;
 }
 
-.rectangle {
+#rectangle {
   background-color: var(--blue);
   height: 425px;
   width: 100%;
   margin-top: -10px;
 }
 
-.designs {
+#designs {
   margin-top: -330px;
   margin-left: -40px;
 }
 
-.theQuote {
+#theQuote {
   font-size: 26px;
   font-family: "Noto Sans", sans-serif;
   font-weight: bold;
@@ -453,13 +453,13 @@ a {
   color: var(--white);
 }
 
-.quote1 {
+#quote1 {
   margin-top: -1050px;
   margin-bottom: -1330px;
   margin-left: 400px;
 }
 
-.quote2 {
+#quote2 {
   margin-top: -75px;
   margin-bottom: -1340px;
   margin-left: 830px;
@@ -556,12 +556,12 @@ a {
   background-position: center;
 }
 
-.galleryshapes {
+#galleryshapes {
   margin-top: -730px;
   margin-left: 435px;
 }
 
-.buttonsSection {
+#buttonsSection {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -569,7 +569,7 @@ a {
   margin-left: 5px;
 }
 
-.EarlyInt button {
+#EarlyInt button {
   font-family: "Noto Sans", sans-serif;
   font-size: 30px;
   background-color: var(--red);
@@ -580,7 +580,7 @@ a {
   margin-right: 8px;
 }
 
-.k21 button {
+#k21 button {
   font-family: "Noto Sans", sans-serif;
   font-size: 30px;
   background-color: var(--green);
@@ -591,7 +591,7 @@ a {
   margin-right: 8px;
 }
 
-.outreach button {
+#outreach button {
   font-family: "Noto Sans", sans-serif;
   font-size: 30px;
   background-color: var(--blue);
@@ -602,7 +602,7 @@ a {
   margin-right: 8px;
 }
 
-.cvi button {
+#cvi button {
   font-family: "Noto Sans", sans-serif;
   font-size: 30px;
   background-color: var(--orange);
@@ -613,7 +613,7 @@ a {
   margin-right: 8px;
 }
 
-.IntProgram button {
+#IntProgram button {
   font-family: "Noto Sans", sans-serif;
   font-size: 30px;
   background-color: var(--purple);
@@ -624,14 +624,14 @@ a {
   margin-right: 8px;
 }
 
-.callout {
+#callout {
   background-color: var(--yellow);
   margin-top: 50px;
   height: 300px;
   margin-bottom: 50px;
 }
 
-.calloutText {
+#calloutText {
   font-family: "Noto Sans", sans-serif;
   display: flex;
   flex-direction: column;
@@ -639,17 +639,17 @@ a {
   margin-left: 25px;
 }
 
-.text1 {
+#text1 {
   font-size: 70px;
   font-weight: bold;
   margin-bottom: -30px;
 }
 
-.text2 {
+#text2 {
   font-size: 30px;
 }
 
-.callout button {
+#callout button {
   position: absolute;
   background-color: var(--blue);
   color: var(--white);
@@ -662,7 +662,7 @@ a {
   left: 70%;
 }
 
-.footer {
+#footer {
   background-color: var(--blue);
   height: 162px;
   display: flex;
@@ -673,30 +673,30 @@ a {
   color: var(--yellow);
 }
 
-.leftSide {
+#leftSide {
   font-size: 45px;
   margin-left: -40px;
   padding-right: 40px;
   font-weight: bold;
 }
 
-.leftSideText {
+#leftSideText {
   font-size: 15px;
   padding-right: 20px;
   text-align: right;
 }
 
-.logoFooter {
+#logoFooter {
   width: 100px;
   height: 100px;
   padding-right: 40px;
 }
 
-.rightSideText {
+#rightSideText {
   font-size: 15px;
   padding-right: 30px;
 }
 
-.rightSide {
+#rightSide {
   margin-right: -70px;
 }

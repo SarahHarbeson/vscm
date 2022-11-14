@@ -1,4 +1,4 @@
-.footer{
+#footer{
     background-color: var(--blue);
     height: 162px; 
     display: flex; 
@@ -11,31 +11,31 @@
 
 }
 
-.leftSide{
+#leftSide{
 font-size: 45px; 
 margin-left: -40px; 
 padding-right: 40px; 
 font-weight: bold; 
 }
 
-.leftSideText{
+#leftSideText{
     font-size: 15px; 
     padding-right: 20px; 
     text-align: right; 
     }
     
 
-.logoFooter{
+#logoFooter{
     width: 100px; 
     height: 100px; 
     padding-right: 40px;
 }
 
-.rightSideText{
+#rightSideText{
     font-size: 15px; 
     padding-right: 30px; 
     }
 
-.rightSide{
+#rightSide{
         margin-right: -70px; 
   }

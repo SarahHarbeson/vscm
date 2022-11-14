@@ -1,4 +1,4 @@
-.callout{
+#callout{
     background-color: var(--yellow); 
     margin-top: 50px; 
     height: 300px; 
@@ -11,7 +11,7 @@
 //     align-items: center; 
 // }
 
-.calloutText {
+#calloutText {
     font-family: 'Noto Sans', sans-serif;
     display: flex; 
     flex-direction: column; 
@@ -19,18 +19,18 @@
     margin-left: 25px; 
 }
 
-.text1{
+#text1{
     font-size: 70px; 
     font-weight: bold; 
     margin-bottom:-30px; 
 }
 
-.text2{
+#text2{
     font-size: 30px; 
 
 }
 
-.callout button{
+#callout button{
     position: absolute;
     background-color: var(--blue);
     color: var(--white);

@@ -1,17 +1,17 @@
-.header {
+#header {
     height: 121px; 
     background: var(--blue);
     font-family: 'Noto Sans', sans-serif;
   }
 
 
-.logo{
+#logo{
     display: flex; 
     justify-content: left; 
     align-items: flex-start, 
 }
 
-.links{
+#links{
   display: flex; 
   flex-direction: row; 
   justify-content: right; 
