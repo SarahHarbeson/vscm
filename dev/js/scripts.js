@@ -15,12 +15,12 @@ function quote(){
   var tl = gsap.timeline({scrollTrigger:{trigger: "#quote", 
 scrub: true, 
 markers: true,  
-start: "top center", 
+start: "top 70%", 
 end: "+=450",
 pin: "rectangle"}})
 
-  tl.from("#rectangle", {duration: 4, x: 1400})
-  .from("#theQuote, #quote1, #quote2", {duration: 3, x: 960})
+  // tl.from("#rectangle", {duration: 4, x: 1400})
+  tl.from("#theQuote, #quote1, #quote2", {duration: 3, x: 960})
   .from("#designs", {duration: 4, x: -500, y: -500})
 
   return tl; 
