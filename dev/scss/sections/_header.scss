@@ -2,7 +2,7 @@
     height: 121px; 
     background: var(--blue);
     font-family: 'Noto Sans', sans-serif;
-  }
+  } 
 
 
 #logo{
@@ -18,7 +18,7 @@
   color: var(--yellow);
   font-size: 20px;
   text-align: center;
-  margin-top: -105px; 
+  margin-top: -130px; 
   font-weight: bold; 
 }
 
@@ -26,4 +26,16 @@ a{
   color: var(--yellow); 
   text-decoration: none; 
   padding: 30px; 
+}
+
+#headerText{
+  color: var(--yellow); 
+  margin-top: -97px; 
+  margin-left: 140px; 
+  font-weight: bold; 
+  font-size: 40px; 
+}
+
+#overbrookText{
+  display: flex; 
 }
